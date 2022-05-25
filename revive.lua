@@ -1,0 +1,6 @@
+local dark = PlayerPedId()
+local coords = GetEntityCoords(dark)
+NetworkResurrectLocalPlayer(coords, GetEntityHeading(dark), true, false)
+ClearPedBloodDamage(dark)
+TriggerEvent('playerSpawned', coords.x, coords.y, coords.z)
+StopScreenEffect('DeathFailOut')
