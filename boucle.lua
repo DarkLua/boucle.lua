@@ -1,4 +1,4 @@
-local cycle = 100000 How many time look it ?
+local cycle = 100000 
 
 Citizen.CreateThread(function()
     for i, cycle do
