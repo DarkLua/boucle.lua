@@ -1,15 +1,3 @@
---[[
-
-	Dear negroids
-
-	hello my friends, i am back again, this time with dopamine!
-
-	here is lux as well: https://anonfile.com/B2Y3B2t2oe/lux_v1.0.2_lua
-
-	Sincerely,
-
-	swag master
-]]
 local _print=print
 
 print = function(msg)
